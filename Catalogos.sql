@@ -1,4 +1,5 @@
 -- tipos de usuario
+/explain
 INSERT INTO TipoUsuario(NombreTipo) 
     VALUES('Alumno'),('Docente');
 

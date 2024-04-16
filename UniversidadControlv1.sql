@@ -1,5 +1,5 @@
 /*
-    Creado Por: I.S.C Martin Cruz Medinilla
+    Creado Por: Martin Cruz 
     Base de datos: ControlEscolarUniAng
     Fecha Creación: Septiembre 2023
     Modificaciónes:*
@@ -35,7 +35,7 @@ CREATE TABLE Carrera(
     Nombre VARCHAR(50),
     Clave VARCHAR(50),
     Active BOOLEAN DEFAULT 1,
-    CreatedBy INTEGER,
+    CreatedBy INTEGER DEFAULT 1,
     PRIMARY KEY(CarreraId)
 );
 
